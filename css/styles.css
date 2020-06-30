@@ -26,7 +26,7 @@
     line-height: 1.71; 
     letter-spacing: 0.03em;
     background-color: #FFFFFF;
-    color: #757575;
+    /* color: #757575; */
     }    
 
 li {
@@ -127,18 +127,39 @@ img{
 }
 
 .site-auth a{
+
     text-decoration: none;
     color:var(--primary-text-color);
 }
-
 .site-auth li{
     margin-right: 30px;
-}
+} 
 
 .site-auth li:last-child{
     margin-right: 0;
 }
 
+.auth-item-tel::before{
+    display: inline-block;
+    content: "" ;
+    height: 15px;   
+    width: 10px;
+    background-image: url(../images/smartphone.jpg);
+    margin-right: 10px;
+    align-items: baseline;
+    background-repeat: no-repeat;
+}
+
+.auth-item-email::before{
+    display: inline-block;
+    content: "" ;
+    height: 12px;  
+    width: 16px;
+    background-image: url(../images/envelope.jpg);
+    margin-right: 10px;
+    align-items: baseline;
+    background-repeat: no-repeat;
+}
 
 .nav-item:hover,
 .nav-item:focus,
@@ -148,10 +169,17 @@ img{
 }
 
 .hero{
-    background-color:#757575;
+    justify-content: center;
+    background-image: 
+        linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+        url(../images/Header.jpg);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px; 
+    max-width: 1600px;
+    
     
 }
 .hero-title{    
