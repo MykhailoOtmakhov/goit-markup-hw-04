@@ -70,6 +70,12 @@ img{
     padding-right: 15px;
 }
 
+/* 
+
+Шапка
+
+ */
+
 .page-header {
     background-color: var(--primary-bg-color);
 }
@@ -109,6 +115,7 @@ img{
 .site-nav{
     margin-left:85px;
 }
+
 .site-nav li{
     margin-right: 50px;
 }
@@ -127,16 +134,15 @@ img{
 }
 
 .site-auth a{
-
     text-decoration: none;
-    color:var(--primary-text-color);
+    color: #757575;
 }
 
 .site-auth a:hover,
 .site-auth a:focus{
-    color:#2196F3;
+    color:#2196F3;  
+    fill:#2196F3;  
 }
-
 
 .site-auth li{
     margin-right: 30px;
@@ -148,45 +154,19 @@ img{
 
 .header-icon{
     fill:#757575;
+    margin-right: 10px;
 }
 
 .header-icon:hover,
 .header-icon:focus{
     fill:#2196F3;
 }
-/* .auth-item-tel::before{
-    display: inline-block;
-    content: "" ;
-    height: 15px;   
-    width: 10px;
-    background-image: url(../images/smartphone.jpg);
-    margin-right: 10px;
-    align-items: baseline;
-    background-repeat: no-repeat;    
-}
 
-.auth-item-email::before{
-    display: inline-block;
-    content: "" ;
-    height: 12px;  
-    width: 16px;
-    background-image: url(../images/envelope.jpg);
-    margin-right: 10px;
-    align-items: baseline;
-    background-repeat: no-repeat;
-} */
+/* 
 
-.nav-item:hover,
-.nav-item:focus,
-.nav-item:active,
-.auth-item-tel:hover,
-.auth-item-tel:focus{
-    color: #2196F3; 
-}
+Герой
 
-.auth-item-email::before:hover{
-    color: #2196F3; 
-}
+*/
 
 .hero{
     justify-content: center;
@@ -198,10 +178,9 @@ img{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px; 
-    max-width: 1600px;
-    
-    
+    max-width: 1600px;  
 }
+
 .hero-title{    
     font-weight: 900;
     font-size: 44px;
@@ -227,13 +206,17 @@ img{
     border-radius: 4px;
 }
 
+/* 
+
+Наши преимущества
+
+*/
+
 .features{   
     padding-top:94px;
     padding-bottom: 94px;
     margin: 0;
 }
-
-
 
 .features-list{
     display: flex;     
@@ -259,6 +242,12 @@ img{
     margin-bottom: 10px;
     padding: 0;
 }
+
+/* 
+
+Чем занимаемся
+
+*/
 
 .items{
     padding-bottom: 94px;
@@ -312,6 +301,12 @@ h2{
     background: rgba(47, 48, 58, 0.8);
     color: #FFFFFF;
 }
+
+/* 
+
+Наша команда
+
+*/
 
 .team{
     background-color: #F5F4FA;
@@ -369,7 +364,6 @@ h2{
     margin-right: 0px;
 }
 
-
 .role{
     text-align: center;   
     font-weight: normal;
@@ -378,6 +372,12 @@ h2{
     color: #757575;
     margin-bottom: 16px;
 }
+
+/* 
+
+Постоянные клиенты
+
+*/
 
 .clients{
     padding-top: 94px;
@@ -396,13 +396,8 @@ h2{
     margin-top: 50px;
 }
 
-
 .client-list li {
     margin-right: 30px;  
-}
-
-.clients-item{
-    
 }
 
 .client-list li:last-child{
@@ -427,6 +422,7 @@ h2{
 .clients-image:hover,
 .clients-image:focus{
     border: 1px solid #2196F3;
+    fill: #2196F3;
 }
 
 .client-icon{    
@@ -434,10 +430,11 @@ h2{
     margin: auto;    
 }
 
-.client-icon:hover,
-.client-icon:focus {
-    fill: #2196F3;
-}
+/* 
+
+Футер
+
+*/
 
 .page-footer{   
     margin-left: auto;   
@@ -543,6 +540,12 @@ b{
     margin-left: 94px;
 }
 
+/* 
+
+Проекты
+
+*/
+
 .projects{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -569,7 +572,6 @@ b{
     margin-right: 0;
 }
 
-
 .filters button{        
     font-family: Roboto;
     font-style: normal;
@@ -581,8 +583,7 @@ b{
     background-color: #F5F4FA;
     border-radius: 4px;
     padding: 6px 22px;   
-    border: none;
-    
+    border: none;    
 }
 
 .filters button:hover,
@@ -590,6 +591,12 @@ b{
     color: #ffffff;
     background-color: #2196F3;
 }
+
+/* 
+
+Каталог
+
+*/
 
 .project-title {    
     font-weight: bold;
@@ -603,9 +610,7 @@ b{
     padding-top: 20px;
     padding-bottom: 4px;
     margin-left: auto;
-    margin-right: auto;
-    
-
+    margin-right: auto;    
 }
 
 .project-list {
@@ -620,8 +625,8 @@ b{
     margin-bottom: 30px;
     width: 370px;
     border: 1px solid #EEEEEE;
-    box-sizing: border-box;
 }
+
 .projects-item:hover,
 .projects-item:focus{
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
@@ -629,7 +634,6 @@ b{
 
 .projects-item:nth-child(3n){
     margin-right: 0;
-
 }
 
 .projects-item:nth-last-child(-n+3){
